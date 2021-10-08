@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Testing Purchase Flow">
+    <test name="TC001- Purchase Flow (Happy Path)">
+         <classes>
+             <class name="com_automationpractice_test.PurchaseFlowTest"/>
+          </classes>
+     </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,26 @@
+digraph "com.practicemaven:mavenpractice:jar:1.0-SNAPSHOT" { 
+	"com.practicemaven:mavenpractice:jar:1.0-SNAPSHOT" -> "org.testng:testng:jar:6.14.3:test" ; 
+	"com.practicemaven:mavenpractice:jar:1.0-SNAPSHOT" -> "org.seleniumhq.selenium:selenium-java:jar:3.141.59:compile" ; 
+	"com.practicemaven:mavenpractice:jar:1.0-SNAPSHOT" -> "commons-io:commons-io:jar:2.4:compile" ; 
+	"org.testng:testng:jar:6.14.3:test" -> "com.beust:jcommander:jar:1.72:test" ; 
+	"org.testng:testng:jar:6.14.3:test" -> "org.apache-extras.beanshell:bsh:jar:2.0b6:test" ; 
+	"org.seleniumhq.selenium:selenium-java:jar:3.141.59:compile" -> "org.seleniumhq.selenium:selenium-api:jar:3.141.59:compile" ; 
+	"org.seleniumhq.selenium:selenium-java:jar:3.141.59:compile" -> "org.seleniumhq.selenium:selenium-chrome-driver:jar:3.141.59:compile" ; 
+	"org.seleniumhq.selenium:selenium-java:jar:3.141.59:compile" -> "org.seleniumhq.selenium:selenium-edge-driver:jar:3.141.59:compile" ; 
+	"org.seleniumhq.selenium:selenium-java:jar:3.141.59:compile" -> "org.seleniumhq.selenium:selenium-firefox-driver:jar:3.141.59:compile" ; 
+	"org.seleniumhq.selenium:selenium-java:jar:3.141.59:compile" -> "org.seleniumhq.selenium:selenium-ie-driver:jar:3.141.59:compile" ; 
+	"org.seleniumhq.selenium:selenium-java:jar:3.141.59:compile" -> "org.seleniumhq.selenium:selenium-opera-driver:jar:3.141.59:compile" ; 
+	"org.seleniumhq.selenium:selenium-java:jar:3.141.59:compile" -> "org.seleniumhq.selenium:selenium-remote-driver:jar:3.141.59:compile" ; 
+	"org.seleniumhq.selenium:selenium-java:jar:3.141.59:compile" -> "org.seleniumhq.selenium:selenium-safari-driver:jar:3.141.59:compile" ; 
+	"org.seleniumhq.selenium:selenium-java:jar:3.141.59:compile" -> "org.seleniumhq.selenium:selenium-support:jar:3.141.59:compile" ; 
+	"org.seleniumhq.selenium:selenium-java:jar:3.141.59:compile" -> "net.bytebuddy:byte-buddy:jar:1.8.15:compile" ; 
+	"org.seleniumhq.selenium:selenium-java:jar:3.141.59:compile" -> "org.apache.commons:commons-exec:jar:1.3:compile" ; 
+	"org.seleniumhq.selenium:selenium-java:jar:3.141.59:compile" -> "com.google.guava:guava:jar:25.0-jre:compile" ; 
+	"org.seleniumhq.selenium:selenium-java:jar:3.141.59:compile" -> "com.squareup.okhttp3:okhttp:jar:3.11.0:compile" ; 
+	"org.seleniumhq.selenium:selenium-java:jar:3.141.59:compile" -> "com.squareup.okio:okio:jar:1.14.0:compile" ; 
+	"com.google.guava:guava:jar:25.0-jre:compile" -> "com.google.code.findbugs:jsr305:jar:1.3.9:compile" ; 
+	"com.google.guava:guava:jar:25.0-jre:compile" -> "org.checkerframework:checker-compat-qual:jar:2.0.0:compile" ; 
+	"com.google.guava:guava:jar:25.0-jre:compile" -> "com.google.errorprone:error_prone_annotations:jar:2.1.3:compile" ; 
+	"com.google.guava:guava:jar:25.0-jre:compile" -> "com.google.j2objc:j2objc-annotations:jar:1.1:compile" ; 
+	"com.google.guava:guava:jar:25.0-jre:compile" -> "org.codehaus.mojo:animal-sniffer-annotations:jar:1.14:compile" ; 
+ } 
